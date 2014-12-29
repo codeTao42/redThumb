@@ -1,0 +1,25 @@
+
+.hovered{
+  width: 350px;
+  height: 475px;
+  border:solid 2px black;
+  float:right;
+  margin-right: 250px;
+  position: relative;
+}
+
+.thumb{
+  width:350px;
+  height:475px;
+  border: solid 2px black;
+  position: relative;
+}
+img{
+  width:100%;
+  position:absolute;
+  margin:auto;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+}
