@@ -6,6 +6,7 @@
   float:right;
   margin-right: 250px;
   position: relative;
+  background:grey;
 }
 
 .thumb{
@@ -22,4 +23,45 @@ img{
   left: 0;
   right:0;
   bottom: 0;
+}
+.up-arrow{
+  width:33%;
+  position:absolute;
+  top: 33%;
+  left:0;
+  right: 0;
+  bottom: 0;
+  margin:auto;
+  opacity:.6;
+}
+.down-arrow{
+  width:33%;
+  position:absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 33%;
+  margin:auto;
+  opacity:.6;
+}
+.score img {
+  width:10%;
+  opacity: .6;
+}
+.exit-button img{
+  opacity: .6;
+  left: 90%;
+  bottom:90%;
+  width:10%;
+}
+.forum-button img{
+  opacity: .6;
+  left: 60%;
+  bottom:90%;
+  width:10%;
+}
+.post-title{
+  color: blue;
+  position: absolute;
+  top: 90%;
 }
