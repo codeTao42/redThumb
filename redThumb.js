@@ -1,0 +1,79 @@
+var main = function(){
+	$('.thumb').hover(function(){
+		$(this).toggleClass('hovered');
+	});
+  $('.score').hide();
+  $('.up-arrow').hide();
+  $('.down-arrow').hide();
+  $('.exit-button').hide();
+  $('.forum-button').hide();
+  $('.share-button').hide();
+  $('.post-title').hide();
+  $('.hovered').hover(
+    function(){
+      $('.score').show();
+  },
+    function(){
+      $('.score').hide();
+  });   
+  $('.hovered').hover(
+    function() {
+      $('.up-arrow').show();
+  },
+    function(){
+      $('.up-arrow').hide();
+  
+  });
+  $('.hovered').hover(
+    function(){
+      $('.down-arrow').show();
+  },
+    function(){
+      $('.down-arrow').hide();
+  });
+  $('.hovered').hover(
+    function(){
+      $('.post-title').show();
+  },
+    function(){
+      $('.post-title').hide();
+  });
+  $('.hovered').hover(
+    function(){
+      $('.forum-button').show();
+  },
+    function(){
+      $('.forum-button').hide();
+  });
+  $('.hovered').hover(
+    function(){
+      $('.exit-button').show();
+  },
+    function(){
+      $('.exit-button').hide();
+  });
+  $('.hovered').hover(
+    function(){
+      $('.share-button').show();
+  },
+    function(){
+      $('.share-button').hide();
+  });
+  $('.hovered').hover(
+    function(){
+      $(this).show(
+        function(){
+          $(this).css({'background-color':'grey'});
+        })
+    },
+    function(){
+      $(this).hide(
+        function(){
+          $(this).css({'background-color':'grey'});
+        })
+      }
+    );
+};
+
+
+$(document).ready(main);
