@@ -65,5 +65,10 @@ img{
 .post-title{
   color: blue;
   position: absolute;
+  top: 80%;
+}
+.share-button img{
+  width: 10%;
   top: 90%;
+  left: 90%;
 }
