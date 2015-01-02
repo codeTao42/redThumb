@@ -63,16 +63,9 @@ var main = function(){
     function(){
       $(this).show(
         function(){
-          $(this).css({'background-color':'grey'});
+          $('.hovered').css({'background-color':'grey'});
         })
-    },
-    function(){
-      $(this).hide(
-        function(){
-          $(this).css({'background-color':'grey'});
-        })
-      }
-    );
+    });
 };
 
 
