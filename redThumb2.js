@@ -39,7 +39,17 @@ var main = function(){
     });
   $('.up-arrow').click(
     function(){
-      $('.score-#').val(++num);
+      var currentScore = $('.score-value').val();
+      currentScore = parseInt(currentScore);
+      currentScore += 1;
+      $('.score-value').val(currentScore);
+    });
+  $('.down-arrow').click(
+    function(){
+      var currentScore = $('.score-value').val();
+      currentScore = parseInt(currentScore);
+      currentScore -= 1;
+      $('.score-value').val(currentScore);
     });
 };
 
