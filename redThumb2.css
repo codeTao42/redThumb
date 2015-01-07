@@ -1,0 +1,12 @@
+.post {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.post li {
+  font-size: 16px;
+}
+
+img {
+  width:90%;
+}
